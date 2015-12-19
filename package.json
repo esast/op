@@ -1,0 +1,20 @@
+{
+	"name": "op",
+	"version": "0.0.0",
+	"files": ["Op.d.ts", "Op.js", "Op.js.map", "Op.ts"],
+	"license": "Unlicense",
+	"repository": "esast/op",
+	"typings": "Op.d.ts",
+	"scripts": {
+		"build": "tsc Op.ts --module umd --declaration --sourceMap",
+		"lint": "tslint Op.ts",
+		"TODO-doc": "typedoc Op.ts --out doc --name Op --readme readme.md --module umd --target ES6",
+		"TODO-all": "npm run build && npm run lint && npm run doc"
+	},
+	"devDependencies": {
+		"tslint": "3.2.2-dev.1",
+		"tslint-config-esast": "esast/tslint-config-esast",
+		"typedoc": "0.3.12",
+		"typescript": "1.8.0-dev.20160116"
+	}
+}

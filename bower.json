@@ -1,0 +1,7 @@
+{
+	"name": "op",
+	"dependencies": {},
+	"ignore": ["package.json", "readme.md"],
+	"moduleType": "amd",
+	"license": "Unlicense"
+}
